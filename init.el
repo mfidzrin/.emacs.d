@@ -10,7 +10,12 @@
 ;; Set up the visible bell
 (setq visible-bell t)
 
-(set-face-attribute 'default nil :font "Fira Code Retina" :height 200)
+(set-face-attribute 'default nil :font "Hack Nerd Font Italic 12")
+
+(prefer-coding-system 'utf-8)
+(set-default-coding-systems 'utf-8)
+(set-terminal-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)
 
 (load-theme 'misterioso)
 
